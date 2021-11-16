@@ -1,16 +1,79 @@
-box-sizing:border-box;
-background-color: #FAF0E6;
+
 
 img {
     border-radius: 8px;
     display: block;
     margin-left:auto;
-    margin-right: auto:
-    max-width: 30%;
-    max-height: 30%;
+    margin-right: auto;
+    height: 50%;
+    width: 50%;
 }
 
-h1, h2, h3, p {
+h2, h3 {
     color: gray;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: AntiqueWhite;
+    text-align:center;
+    box-sizing:border-box;
 }
+p, ol, ul, li {
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: AntiqueWhite;
+    text-align:left;
+    box-sizing:border-box;
+}
+body {
+    background-color: AntiqueWhite;
+    box-sizing:border-box;
+    border: 10px solid;
+    border-color: #556B2F;
+}
+
+header, header h1, header p, footer, footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#D2B48C;
+    color:#556B2F;
+    text-align: center;
+    }
+
+header h1{
+    margin-top: 0;
+    padding-top: 35px;
+}
+
+header p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+}
+
+footer {
+    margin-bottom: 0%;
+}
+
+.list-inside li {
+    list-style-position: inside;
+}
+
+article {
+    padding: 0 25%;
+    margin: 100px 0;
+}
+
+a:link {color:#556B2F;}
+a:visited {color:#CD853F;}
+a:hover {color:black;}
+a:active {color:gray;}
+
+hr {
+    border: 1px solid #556B2F;
+    border-radius: 5px;
+}
+
+
