@@ -39,7 +39,7 @@ body {
 /* header and footer styling that updates colors*/
 header, header h1, header p, footer, footer p{
     font-family: Arial, Helvetica, sans-serif;
-    background-color:#D2B48C;
+    background-color:#e4d8c9;
     color:#145A32 ;
     text-align: center;
     }
